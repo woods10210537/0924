@@ -1,0 +1,84 @@
+class Student 
+{
+ int Cn;
+ int En;
+ int Ma;
+ int Total;
+
+ void show()
+{
+ System.out.println("國文"+Cn+"分，英文"+En+"分，數學"+Ma+"分，總分"+Total+"分，平均"+Total/3+"分");
+}
+
+set3Score(int Cn, int En, int Ma)
+{
+ this.Cn=Cn;
+ this.En=En;
+ this.Ma=Ma;
+}
+
+void set1Score(char course, int score)
+{
+if (course == 'C')
+{
+  this.Cn=score;
+}
+
+if (course == 'E')
+{
+  this.En=score;
+}
+
+if (course == 'M')
+{
+  this.Ma=score;
+}
+}
+
+String compare()
+{
+ if(Jack.Total>Jennifer.Total){
+ return Jack is winner;
+}else {
+ return Jennifer is winner;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ public class a0919
+{
+ public static void main (String [] args) 
+{
+
+ Student Jack = new Student ();
+ Student Jennifer = new Student ();
+
+ Jack.Cn=78;
+ Jack.En=50;
+ Jack.Ma=85;
+
+ Jack.Total = Jack.Cn+Jack.En+Jack.Ma;
+ Jack.show();
+
+ Jennifer.Cn=82;
+ Jennifer.En=72;
+ Jennifer.Ma=78;
+
+ Jennifer.Total = Jennifer.Cn+Jennifer.En+Jennifer.Ma;
+ Jennifer.show();
+ compare()
+
+ 
+} 
+}

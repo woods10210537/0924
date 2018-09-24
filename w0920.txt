@@ -1,0 +1,50 @@
+class Electricity
+{
+ int power;
+ int hour;
+ double degree;
+ void show()
+{
+ System.out.print("瓦數:"+power+",用電時數"+hour+",使用度數:"+degree+"度");
+}
+ void setpower(int power)
+{
+ this.power = power;
+}
+ void setHour(int Hour)
+{
+ this.Hour = Hour;
+}
+ void setData(char choose,int data)
+{
+ if(choose==p)
+{
+ data=power;
+}else if(choose==h)
+{
+ data=hour;
+}
+}
+ double calculate()
+{
+ Degree=(power*hour)/1000;
+}
+}
+
+
+
+
+
+public class w0920.java
+{
+ public static void main (String [] args) 
+{
+ Electricity Meter_1 = new Electricity ();
+ Electricity Meter_2 = new Electricity ();
+
+ Meter_1.power=15609
+ Meter_1.hour=325
+ Meter_1.degree=Meter_1.calculate()*3.2;
+
+}
+}

@@ -1,0 +1,29 @@
+class Studen 
+{
+ int Ch;
+ int En;
+ int Ma;
+ int Total;
+
+ void show(國文"+Ch+"分，英文"+En+"分，數學"+Ma+"分，總分"+Total+"分，平均"+Total/3+"分);
+}
+ public class a0919.java
+{
+ public static void main (String [] args) 
+{
+
+ Student Jack = new Student ();
+ Jack.Ch=78;
+ Jack.Eh=50;
+ Jack.Ma=85;
+ Jack.Total = Ch+Eh+Ma;
+ Jack show();
+
+ Student Jennifer = new Student ();
+ Jennifer.Ch=82;
+ Jennifer.Eh=72;
+ Jennifer.Ma=78;
+ Jennifer.Total = Ch+Eh+Ma;
+ Jennifer show();
+} 
+}
